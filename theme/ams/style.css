@@ -1,0 +1,476 @@
+@import "../default/default.css";
+
+* 
+{
+    font-family: Arial, Verdana;
+}
+
+body
+{
+    font-weight: 0.9em;
+    background-position: top center;
+    background-repeat: repeat-x;
+    background-color:#397bb7;
+    /* background-image: url('images/blue.jpg'); */
+    background-color: #DEEBF7;
+}
+
+h1
+{
+    font-size:18pt;
+    margin-bottom:0.5em;
+    color:#234668;
+}
+
+h2
+{
+    font-size:11pt;
+    font-weight: bold;
+    text-align:left;
+    color: #333;
+}
+
+strong
+{
+    color:#333366;
+}
+
+a, a:link, a:visited 
+{
+    color: #B28705;
+    font-size:100%;
+    text-decoration: underline;
+}
+
+a:hover
+{
+    color: #B15C11;
+    text-decoration: underline;
+}
+
+ul
+{
+    font-family: Arial, Verdana;
+    font-size: 96%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.button
+{
+    margin:0 auto;
+    margin-top:2em;
+    width: 120px;
+    font-size:11pt;
+    padding:0.5em;
+    text-align:center;
+    border-radius:0.5em;
+    background-image:url('http://www.ams-trust.com.my/theme/ams/images/menubg-red.jpg');
+}
+
+.button a
+{
+    text-decoration:none;
+    font-weight:bold;
+    color:#fff;
+}
+
+#main 
+{
+    margin:0 auto;
+    /*box-shadow: 2px 2px 2px #5c3566; */
+    margin-top:0.5em;
+    background-repeat: no-repeat;
+    margin-bottom:2em;
+}
+
+#header
+{
+    width:930px;
+    height:100px;
+    margin:0 auto;
+    margin-top:0em;
+    clear:both;
+}
+
+
+#logo
+{
+    padding:1em;
+    width:400px;
+    color: #5B9BD5;
+}
+
+#top-nav
+{
+    top: 15px;
+    position:absolute;
+    background-image:url('http://www.ams-trust.com.my/theme/ams/images/map.png');
+    background-repeat:no-repeat;
+    background-position: right;
+    width:120px;
+    height:50px;
+}
+
+#menu
+{
+    clear:both;
+    height:33px;
+    width:930px;
+    margin:0 auto;
+    border-bottom:1px solid #eaf2f8;
+    background-color:#7f4b4f;
+    background: #5B9BD5;
+}
+
+#menu ul
+{
+    list-style-type:none;
+    text-decoration: none;
+}
+
+#menu a
+{
+    text-decoration:none;
+    font-size:9pt;
+    color: #000;
+}
+/*
+#menu li
+{
+    float:left;
+    padding: 0.5em;
+    padding-left:50px;
+    padding-right:50px;
+    margin-left:0.1em;
+    border-left:1px solid #ccc;
+}
+
+
+#menu li.selected
+{
+    border-bottom:1px solid red;
+}
+
+#menu li:hover
+{
+    background-color:#aaa;
+}
+*/
+.submenu
+{
+    height:350px;
+    background-color:#D35300;
+    border-radius:0.5em;
+}
+
+.td-left
+{
+    width: 200px;
+}
+
+.td-left ul li
+{
+    border-bottom: 1px solid #333;
+}
+
+.td-left ul li:hover
+{
+    background-color: #B55122;
+}
+
+.submenu li.selected a
+{
+    color:#01349A;
+}
+
+.submenu a
+{
+    color: #fff;
+}
+
+#container
+{
+    clear:both;
+    margin:0 auto;
+    min-height:500px;
+    background-color:#F9F8F2;
+    width:930px;
+    opacity:0.9;
+}
+
+#body
+{
+    clear:both;
+    color:#333;
+    background-color:#F9F8F2;
+}
+
+#ajaxbody
+{
+    width:680px;
+    padding:0.5em;
+    font-size:9pt;
+    color: #333;
+    text-align: justify;
+    padding-bottom: 50px;
+}
+
+
+#ajaxbody ol, #ajaxbody ul
+{
+    type: 1;
+    margin-left: 20px;
+}
+
+#ajaxbody ul li
+{
+    padding:0.2em;
+    list-style-type: circle;
+}
+
+#ajaxbody ol li
+{
+    padding:0.2em;
+    list-style-type: decimal;
+}
+
+#slides
+{
+    clear:both;
+    margin:0 auto;
+    padding:1em;
+    text-align:center;
+    min-height:330px;
+    width:900px;
+    border-radius:0.5em;
+    border-bottom:1px solid #eaf2f8;
+}
+
+#slides .pagination 
+{
+    margin-left: 70px;
+}
+
+#slides .pagination li
+{
+    float:left;
+    margin:0.2em;
+    padding:0.2em;
+}
+
+#slides li.current a
+{
+    color: #666;
+}
+
+#slides .pagination a
+{
+    text-decoration:none;
+    color:#aaa;
+}
+
+.slides_container
+{
+    height:300px; 
+    width:900px;
+    margin:0 auto;
+}
+
+.slides_page
+{
+    display: block;
+    width:900px;
+    margin:0 auto;
+}
+
+.slide-col1
+{
+    width:210px;
+    padding:0.5em;
+    text-align:justify;
+    float:left;
+}
+
+.slide-col2
+{
+    margin-top: 20px;
+    margin-left:230px;
+}
+
+.table-home
+{
+    clear:both;
+    background-position: top left;
+    border-bottom:1px dotted #bbb;
+    width:900px;
+    margin:0 auto;
+}
+
+.home-row
+{
+    display:table-row;
+}
+
+.home-cell
+{
+    display:table-cell;
+    width:250px;
+    padding:2.5em;
+    text-transform: none;
+    text-align:justify;
+    color:#333;
+}
+
+.home-cell .detail, .home-cell h2
+{
+    color:#666;
+}
+
+.table-content
+{
+    display:table;
+    width:100%;
+}
+
+.td-left
+{
+    display:table-cell;
+    padding:0.5em;
+    background-image:url('images/body_bg.gif');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.td-left li
+{
+    padding:0.3em;
+    border-bottom:1px solid #ccc;
+}
+
+.td-left a
+{
+    text-decoration: none;
+    font-size:8pt;
+}
+
+.td-right
+{
+    padding:0.5em;
+    min-height:500px;
+    display:table-cell;
+    vertical-align: top;
+    border-left: 1px dotted #89805B;
+}
+
+.slideshow
+{
+    width: 500;
+    height: 300;
+    border:1px solid red;
+    background-color:red;
+}
+
+#partner
+{
+    text-align:right;
+}
+
+#footer
+{
+    clear:both;
+    font-size:9pt;
+    color:#666;
+    margin:0 auto;
+    background-color: #7f4b4f;
+    background-color: #5B9BD5;
+    border-top:1px solid #ccc;
+    padding:0.5em;
+    width:918px;
+    border-bottom-left-radius:0.5em;   
+    border-bottom-right-radius:0.5em;   
+    opacity:0.7;
+}
+
+#footer td
+{
+    padding:1em;
+}
+
+#footer a
+{
+    color: #333;
+    font-size:8pt;
+}
+
+#copy
+{
+    float:left;
+}
+
+.detail
+{
+    font-size:8pt;
+    margin-top:1em;
+    color:#666;
+    text-align:left;
+}
+
+.cell input, .cell textarea
+{
+    border:1px solid #aaa;
+    padding:0.2em;
+    border-radius:0.3em;
+    text-transform: capitalize;
+}
+
+.cell input[type=submit]
+{
+    padding:0.4em;
+    padding-left:1em;
+    padding-right:1em;
+    font-size:9pt;
+}
+
+.loading
+{
+    color:#666;
+}
+
+.rogon
+{
+    font-size:7.5pt;
+    color: #bbb;
+    text-align: right;
+    padding:1em;
+    margin: 0 auto;
+    width: 900px;
+    display: none;
+}
+
+.slogan
+{
+    color: white;
+    font-size: 30pt;
+    font-style: italic;
+    font-family: Georgia;
+    height:280px;
+    width: 700px;
+}
+
+.motto
+{
+    font-style:italic;
+}
+
+.news, .news strong
+{
+    font-size: 9pt;
+    background-color:#4087c9;
+    padding:0.5em;
+    height:270px;
+    color:#333;
+    border-radius:0.5em;
+}
+

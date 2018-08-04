@@ -1,0 +1,133 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
+
+td {
+    vertical-align:top;
+}
+
+a {
+    outline: 0 none;
+}
+
+a img {
+    border: none;
+}
+
+p
+{
+    margin-bottom:0.5em;
+}
+
+em
+{
+    font-style:italic;
+}
+
+strong {
+    font-weight:bold;
+}
+
+select
+{
+    margin-right:0.2em;
+}
+
+.table
+{
+    display:table;
+}
+
+.row
+{
+    display:table-row;
+}
+
+.cell
+{
+    display:table-cell;
+    padding:0.4em;
+    text-transform: capitalize;
+    min-width:50px;
+    vertical-align:top;
+}
+
+.mark
+{
+    color: red;
+}
+
+.wizard_status
+{
+    margin-left:4em;
+}
+
+.wizard_status li
+{
+    float:left;
+    padding:0.2em;
+    padding-left:1em;
+    padding-right:1em;
+    color:#666;
+    font-size:8pt;
+    min-width:80px;
+    margin-left: 0.3em;
+    text-transform: capitalize;
+    text-align:center;
+    border-bottom:1px solid #ccc;
+}
+
+
+.wizard_status a
+{
+    color:#333;
+    text-decoration:none;
+}
+
+.wizard_status li.selected
+{
+    border-bottom:1px solid orange;
+}
+
+
+.nav
+{
+    margin-top:0.5em;
+    margin-bottom:1.5em;
+    font-size:8pt;
+    text-transform: capitalize;
+}
+
+.confirm
+{
+    clear:both;
+    margin-top: 20px;
+    margin-left: 40px;
+}
