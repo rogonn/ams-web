@@ -9,10 +9,8 @@ body
 {
     font-weight: 0.9em;
     background-position: top center;
-    background-repeat: repeat-x;
-    background-color:#397bb7;
-    /* background-image: url('images/blue.jpg'); */
     background-color: #DEEBF7;
+    background-color: #1e0000;
 }
 
 h1
@@ -119,7 +117,6 @@ ul
     height:33px;
     width:930px;
     margin:0 auto;
-    border-bottom:1px solid #eaf2f8;
     background-color:#7f4b4f;
     background: #5B9BD5;
 }
@@ -132,6 +129,7 @@ ul
 
 #menu a
 {
+    border-left: none;
     text-decoration:none;
     font-size:9pt;
     color: #000;
@@ -385,6 +383,7 @@ ul
     margin:0 auto;
     background-color: #7f4b4f;
     background-color: #5B9BD5;
+    background-color: #f0f0f0;
     border-top:1px solid #ccc;
     padding:0.5em;
     width:918px;
@@ -451,7 +450,8 @@ ul
 
 .slogan
 {
-    color: white;
+    color: #666;
+    margin-top: 30px;
     font-size: 30pt;
     font-style: italic;
     font-family: Georgia;
